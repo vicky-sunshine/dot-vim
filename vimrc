@@ -8,6 +8,7 @@ set bs=2
 set number
 set ruler
 set autoread
+set updatetime=250
 
 filetype on
 filetype indent on
@@ -31,7 +32,7 @@ highlight CursorLineNr ctermfg=black ctermbg=white
 highlight GitGutterAdd    ctermfg=green
 highlight GitGutterChange ctermfg=yellow
 highlight GitGutterDelete ctermfg=red
-let g:gitgutter_realtime = 0
+
 
 
 set nobackup                 " no *~ backup files
@@ -99,6 +100,7 @@ Plugin 'AutoClose'
 Plugin 'scrooloose/nerdtree'
 Plugin 'airblade/vim-gitgutter'
 Plugin 'terryma/vim-multiple-cursors'
+Plugin 'chrisbra/vim-diff-enhanced'
 
 Plugin 'https://github.com/Valloric/YouCompleteMe.git'
 
