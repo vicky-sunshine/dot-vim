@@ -92,6 +92,7 @@ nnoremap tt :NERDTreeToggle<CR>
   endfunction
   let g:go_fmt_autosave = 1
   let g:go_fmt_command = "goimports"
+  let g:go_bin_path = $HOME."/go/bin"
   au BufNewFile,BufRead *.go setlocal noexpandtab tabstop=4 shiftwidth=4
 
 
@@ -114,6 +115,8 @@ Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
 Plugin 'powerline/powerline'
 Plugin 'ryanoasis/vim-devicons'
+Plugin 'godlygeek/tabular'
+Plugin 'elzr/vim-json'
 
 Plugin 'https://github.com/Valloric/YouCompleteMe.git'
 
